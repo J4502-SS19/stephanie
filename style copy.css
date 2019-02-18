@@ -1,12 +1,12 @@
 p{
   color: black;
-  font-family: 'Merriweather', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   text-align: center;
 }
 
 h1{
   color: #8B008B;
-  font-family: 'Poppins', Georgia, "Times New Roman", serif;
+  font-family: 'Arvo', Georgia, "Times New Roman", serif;
   text-align: center;
 }
 
@@ -51,18 +51,9 @@ body{
   background-color: #8B008B;
 }
 
-.caption{
-  font-family: Georgia, "Times New Roman", serif;
-  font-style: italic;
-  color: black;
-  font-size: 0.8em;
-  margin-top: 0;
-  text-align: right;
-}
-
 #footer{
   color: #666666;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
   font-size: 0.8em;
   border-top: 1px solid black;
 }
