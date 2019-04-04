@@ -104,6 +104,22 @@ nav ul li{
     grid-area: e;
   }
 
+.section1 p:first-of-type, .section2 p:first-of-type {
+  margin-top: 0;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    "a b b e"
+    "c c c ."
+    ". d d .";
+  }
 }
 
 }
