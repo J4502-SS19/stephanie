@@ -103,7 +103,6 @@ article:last-of-type {
 @media screen and (min-width: 450px){
 
 nav ul {
-  flex-flow: row;
   justify-content: space-between;
 }
 
