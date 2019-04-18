@@ -119,6 +119,32 @@ Full screen background example specific styles
 
 @media screen and (min-width: 800px) {
 
+/*.cover{
+  margin-top: -65px;
+  position: relative;
+  z-index: -1;
+}
+
+h1{
+  padding-left: 10px;
+  padding-top: 10px;
+} */
+
+/* h1 {
+  background-color: #bd5532;
+  background-image: url('img/wp.png');
+  background-size: 100% auto;
+} */
+
+header{
+  background-color: #bd5532;
+  background-image: url('img/wp.png');
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 2em;
+}
+
     #container {
         width: 70%;
         max-width: 60em;
